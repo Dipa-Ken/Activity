@@ -1,0 +1,198 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: white;
+  color: black;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+  width: 100%;
+  position: fixed;
+  line-height: 45px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 173, 244);
+}
+ ul li{
+  text-align: center;
+  width: 66px;
+  font-size: 1em;
+
+}
+    ul li a{
+      color: white;
+      text-decoration: none;
+      font-family: arial;
+    }
+    ul{
+     list-style-type: none;
+      display: inline-flex;
+    }
+    ul li a:active{
+      text-decoration: underline;
+    }
+     #Wc{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #Wc h2{
+      font-size: 2em;
+      font-weight: bold;
+      font-family: arial;
+      /*animation-name: gg;
+      animation-duration: 2.5s; */
+     }
+     /*@keyframes gg{
+      0%{
+        min-width: 100%;
+        }
+        100%{
+        min-width: 0%;
+        }
+     }*/
+     #Project{
+      background: transparent;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     section{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+     }
+  .info{
+    width: 250px;
+    margin-left: 20px 0;
+  }
+  .info .item{
+    width: 100%;
+    height: 250px;
+    background-color: #00FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .info button{
+    width: 100%;
+    background-color: #A9A9A9;
+    padding: 5px 10px;
+    border: none;
+    outline: 0;
+    font-weight: bolder;
+    font-family: arial;
+  }
+  .text {
+    margin-top: 20px;
+    width: 100%;
+  }
+.about{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .info{
+  background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 260px;
+  padding: 30px 0 0 0;
+  box-shadow: 0 45px 50px rgba(0,0,0,.8);
+  margin: auto;
+  border-radius: 10%;
+  text-align: center;
+}
+.about .info .text{
+  opacity: .8;
+  width: 100%;
+  background-color: rgba(0, 173, 244);
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+.about .info p{
+  color: black;
+  padding-top: 30px;
+  width: 90%;
+  margin: auto;
+  height: 100px;
+}
+.about .info img{
+  border-radius: 50%;
+}
+.about .info h1{
+  font-family: cursive;
+}
+#Contact{
+  padding: 200px 0 200px 0;
+  width: 90%;
+  margin: auto;
+}
+.send{
+  background-color: rgb(220,220,220);
+  box-shadow: 0 45px 50px rgba(0,0,0,.8); 
+  width: 260px;
+  margin: auto;
+  padding: 10px 5px 10px 5px;
+  border-radius: 10%;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+     #Project{
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     section{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     }
+  .info{
+    width: 250px;
+    margin-left: 20px 0;
+  }
+  .info .item{
+    width: 100%;
+    height: 250px;
+    background-color: #00FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .info button{
+    width: 100%;
+    background-color: #A9A9A9;
+    padding: 5px 10px;
+    border: none;
+    outline: 0;
+    font-weight: bolder;
+    font-family: arial;
+  }
+  .text {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+}
